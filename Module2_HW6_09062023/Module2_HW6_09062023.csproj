@@ -44,11 +44,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Appliance.cs" />
+    <Compile Include="Blender.cs" />
+    <Compile Include="Enums\Manufacturers.cs" />
+    <Compile Include="Enums\TypeAppliance.cs" />
+    <Compile Include="LargeAppliance.cs" />
+    <Compile Include="LargeHouseholdAppliances.cs" />
+    <Compile Include="Mixer.cs" />
+    <Compile Include="Oven.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Projector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Refrigerator.cs" />
+    <Compile Include="SmallAppliance.cs" />
+    <Compile Include="SmallHouseholdAppliances.cs" />
+    <Compile Include="Starter.cs" />
+    <Compile Include="TV.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram\ClassDiagram.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
