@@ -11,6 +11,5 @@
             get { return _typeMountAppliance; }
             set { _typeMountAppliance = value; }
         }
-
     }
 }
