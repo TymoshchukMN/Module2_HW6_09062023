@@ -1,12 +1,35 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module2_HW6_09062023.Enums
+﻿namespace Module2_HW6_09062023.Enums
 {
-    internal class Manufacturers
+    public enum Manufacturers
     {
+        /// <summary>
+        /// Def.
+        /// </summary>
+        None = 0,
+
+        /// <summary>
+        /// Bosch.
+        /// </summary>
+        Bosch = 1,
+
+        /// <summary>
+        /// LG.
+        /// </summary>
+        LG = 2,
+
+        /// <summary>
+        /// Siemens.
+        /// </summary>
+        Siemens = 3,
+
+        /// <summary>
+        /// Indesit.
+        /// </summary>
+        Indesit = 4,
+
+        /// <summary>
+        /// VestFrost.
+        /// </summary>
+        VestFrost = 5,
     }
 }
