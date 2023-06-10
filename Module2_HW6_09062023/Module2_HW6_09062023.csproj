@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Appliance.cs" />
+    <Compile Include="Enums\FasteningType.cs" />
     <Compile Include="Enums\HousingMaterial.cs" />
     <Compile Include="Kitchen\Blender.cs" />
     <Compile Include="Enums\Manufacturers.cs" />

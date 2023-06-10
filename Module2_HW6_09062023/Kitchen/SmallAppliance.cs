@@ -6,7 +6,7 @@
     {
         private TypeMountAppliance _typeMountAppliance;
 
-        public TypeMountAppliance MyProperty
+        public TypeMountAppliance TypeMountAppliance
         {
             get { return _typeMountAppliance; }
             set { _typeMountAppliance = value; }

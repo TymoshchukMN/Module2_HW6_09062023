@@ -30,6 +30,5 @@ namespace Module2_HW6_09062023
             get { return _voltage; }
             set { _voltage = value; }
         }
-
     }
 }
