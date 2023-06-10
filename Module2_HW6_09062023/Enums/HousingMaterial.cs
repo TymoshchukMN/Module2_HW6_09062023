@@ -1,20 +1,20 @@
 ﻿namespace Module2_HW6_09062023.Enums
 {
-    public enum TypeAppliance
+    public enum HousingMaterial
     {
         /// <summary>
-        /// Def.
+        /// def.
         /// </summary>
         None = 0,
 
         /// <summary>
-        /// Embedded.
+        /// Plastic/
         /// </summary>
-        Embedded = 1,
+        Plastic = 1,
 
         /// <summary>
-        /// Standing separately.
+        /// Metal.
         /// </summary>
-        StandingSeparately = 2,
+        Metal = 2,
     }
 }
