@@ -8,15 +8,15 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.Kitchen">
-    <Position X="3" Y="1.5" Width="1.5" />
+    <Position X="3" Y="1.75" Width="1.5" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
         <Point X="6.5" Y="1.812" />
-        <Point X="5.84" Y="1.812" />
-        <Point X="5.84" Y="1.797" />
-        <Point X="5.16" Y="1.797" />
-        <Point X="5.16" Y="1.774" />
-        <Point X="4.5" Y="1.774" />
+        <Point X="6.282" Y="1.812" />
+        <Point X="6.282" Y="1.909" />
+        <Point X="5.16" Y="1.909" />
+        <Point X="5.16" Y="2.024" />
+        <Point X="4.5" Y="2.024" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -63,7 +63,7 @@
   <Class Name="Module2_HW6_09062023.Projector">
     <Position X="13.5" Y="5" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAA=</HashCode>
       <FileName>Multimedia\Projector.cs</FileName>
     </TypeIdentifier>
   </Class>
