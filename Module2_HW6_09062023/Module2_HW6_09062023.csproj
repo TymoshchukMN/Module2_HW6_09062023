@@ -50,6 +50,8 @@
     <Compile Include="Enums\CoolingSystem.cs" />
     <Compile Include="Enums\FasteningType.cs" />
     <Compile Include="Enums\HousingMaterial.cs" />
+    <Compile Include="Enums\MixerType.cs" />
+    <Compile Include="Enums\MatrixType.cs" />
     <Compile Include="Kitchen\Small Appliance\Blender.cs" />
     <Compile Include="Enums\Manufacturers.cs" />
     <Compile Include="Enums\TypeMountAppliance.cs" />

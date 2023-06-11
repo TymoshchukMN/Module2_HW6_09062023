@@ -7,6 +7,9 @@ namespace Module2_HW6_09062023
 {
     public class Blender : SmallAppliance
     {
+        /// <summary>
+        /// Наличие чаши в комплекте.
+        /// </summary>
         private bool _bowlExist;
 
         public bool BowlExist
@@ -14,6 +17,5 @@ namespace Module2_HW6_09062023
             get { return _bowlExist; }
             set { _bowlExist = value; }
         }
-
     }
 }

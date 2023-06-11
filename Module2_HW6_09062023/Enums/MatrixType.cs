@@ -1,23 +1,20 @@
 ﻿namespace Module2_HW6_09062023.Enums
 {
-    /// <summary>
-    /// тип миксера.
-    /// </summary>
-    public enum MixerType
+    public enum MatrixType
     {
         /// <summary>
         /// Def.
         /// </summary>
-        None = 0,
+        None,
 
         /// <summary>
-        /// Ручной.
+        /// IPS.
         /// </summary>
-        Manual = 1,
+        IPS,
 
         /// <summary>
-        /// С чашей.
+        /// LED.
         /// </summary>
-        WhithBowl = 2,
+        LED,
     }
 }
