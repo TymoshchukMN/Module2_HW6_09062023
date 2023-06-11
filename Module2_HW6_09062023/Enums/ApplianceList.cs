@@ -3,11 +3,6 @@
     public enum ApplianceList
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Refrigerator.
         /// </summary>
         Refrigerator = 1,
