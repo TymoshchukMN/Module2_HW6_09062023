@@ -1,12 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module2_HW6_09062023.Enums
+﻿namespace Module2_HW6_09062023.Enums
 {
-    internal class CoolingSystem
+    public enum CoolingSystem : ushort
     {
+        /// <summary>
+        /// Def.
+        /// </summary>
+        None = 0,
+
+        /// <summary>
+        /// no frost.
+        /// </summary>
+        NoFrost = 1,
+
+        /// <summary>
+        /// Static cooling system.
+        /// </summary>
+        Static = 2,
+
+        /// <summary>
+        /// Combining cooling system.
+        /// </summary>
+        Combine = 3,
     }
 }

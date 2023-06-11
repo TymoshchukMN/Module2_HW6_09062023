@@ -67,7 +67,7 @@
       <FileName>Multimedia\Projector.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Module2_HW6_09062023.Refrigerator" Collapsed="true">
+  <Class Name="Module2_HW6_09062023.Refrigerator">
     <Position X="0.5" Y="7" Width="1.5" />
     <InheritanceLine Type="Module2_HW6_09062023.LargeAppliance" ManuallyRouted="true">
       <Path>
@@ -78,7 +78,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\Large Appliance\Refrigerator.cs</FileName>
     </TypeIdentifier>
   </Class>
