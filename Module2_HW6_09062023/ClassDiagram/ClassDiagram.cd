@@ -8,19 +8,19 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.Kitchen">
-    <Position X="3" Y="2.5" Width="1.5" />
+    <Position X="3" Y="2.25" Width="1.5" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
         <Point X="6.5" Y="1.812" />
         <Point X="5.84" Y="1.812" />
         <Point X="5.84" Y="1.797" />
         <Point X="5.16" Y="1.797" />
-        <Point X="5.16" Y="2.662" />
-        <Point X="4.5" Y="2.662" />
+        <Point X="5.16" Y="2.524" />
+        <Point X="4.5" Y="2.524" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\Kitchen.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -54,7 +54,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.TV">
-    <Position X="9.5" Y="5.25" Width="1.25" />
+    <Position X="9.5" Y="5" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Multimedia\TV.cs</FileName>
@@ -100,7 +100,7 @@
   <Class Name="Module2_HW6_09062023.Blender">
     <Position X="4.25" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\Small Appliance\Blender.cs</FileName>
     </TypeIdentifier>
   </Class>

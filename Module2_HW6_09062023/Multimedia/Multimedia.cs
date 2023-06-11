@@ -2,7 +2,7 @@
 {
     using Module2_HW6_09062023.Enums;
 
-    public class Multimedia : Appliance
+    public abstract class Multimedia : Appliance
     {
         private TypeMountAppliance _typeMountAppliance;
 

@@ -2,7 +2,7 @@
 {
     using Module2_HW6_09062023.Enums;
 
-    public class SmallAppliance : Kitchen
+    public abstract class SmallAppliance : Kitchen
     {
         private HousingMaterial _housingMaterial;
 

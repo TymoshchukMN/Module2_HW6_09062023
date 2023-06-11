@@ -2,7 +2,7 @@
 {
     using Module2_HW6_09062023.Enums;
 
-    public class LargeAppliance : Kitchen
+    public abstract class LargeAppliance : Kitchen
     {
         private TypeMountAppliance _typeAppliance;
 

@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Module2_HW6_09062023
+﻿namespace Module2_HW6_09062023
 {
-    public class Kitchen : Appliance
+    using Module2_HW6_09062023.Enums;
+
+    public abstract class Kitchen : Appliance
     {
+        private Color _color;
+
+        public Color MyProperty
+        {
+            get { return _color; }
+            set { _color = value; }
+        }
     }
 }
