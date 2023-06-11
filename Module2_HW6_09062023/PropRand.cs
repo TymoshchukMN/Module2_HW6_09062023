@@ -14,7 +14,7 @@
 
             return (ColorAppliance)random.Next(
                 1,
-                Enum.GetValues(typeof(ColorAppliance)).Length);
+                Enum.GetValues(typeof(ColorAppliance)).Length + 1);
         }
 
         public static ControlType GetControlType()
@@ -23,7 +23,7 @@
 
             return (ControlType)random.Next(
                 1,
-                Enum.GetValues(typeof(ControlType)).Length);
+                Enum.GetValues(typeof(ControlType)).Length + 1);
         }
 
         public static CoolingSystem GetCoolingSystem()
@@ -32,7 +32,7 @@
 
             return (CoolingSystem)random.Next(
                 1,
-                Enum.GetValues(typeof(CoolingSystem)).Length);
+                Enum.GetValues(typeof(CoolingSystem)).Length + 1);
         }
 
         public static FasteningType GetFasteningType()
@@ -41,7 +41,7 @@
 
             return (FasteningType)random.Next(
                 1,
-                Enum.GetValues(typeof(FasteningType)).Length);
+                Enum.GetValues(typeof(FasteningType)).Length + 1);
         }
 
         public static Manufacturers GetManufacturers()
@@ -50,7 +50,7 @@
 
             return (Manufacturers)random.Next(
                 1,
-                Enum.GetValues(typeof(Manufacturers)).Length);
+                Enum.GetValues(typeof(Manufacturers)).Length + 1);
         }
 
         public static MatrixType GetMatrixType()
@@ -59,7 +59,7 @@
 
             return (MatrixType)random.Next(
                 1,
-                Enum.GetValues(typeof(MatrixType)).Length);
+                Enum.GetValues(typeof(MatrixType)).Length + 1);
         }
 
         public static MixerType GetMixerType()
@@ -68,7 +68,7 @@
 
             return (MixerType)random.Next(
                 1,
-                Enum.GetValues(typeof(MixerType)).Length);
+                Enum.GetValues(typeof(MixerType)).Length + 1);
         }
 
         public static HousingMaterial GetHousingMaterial()
@@ -77,7 +77,7 @@
 
             return (HousingMaterial)random.Next(
                 1,
-                Enum.GetValues(typeof(HousingMaterial)).Length);
+                Enum.GetValues(typeof(HousingMaterial)).Length + 1);
         }
 
         public static ProjectorInterfaceType GetProjectorInterfaceType()
@@ -86,7 +86,7 @@
 
             return (ProjectorInterfaceType)random.Next(
                 1,
-                Enum.GetValues(typeof(ProjectorInterfaceType)).Length);
+                Enum.GetValues(typeof(ProjectorInterfaceType)).Length + 1);
         }
 
         public static TypeMountAppliance GetTypeMountAppliance()
@@ -95,20 +95,21 @@
 
             return (TypeMountAppliance)random.Next(
                 1,
-                Enum.GetValues(typeof(TypeMountAppliance)).Length);
+                Enum.GetValues(typeof(TypeMountAppliance)).Length + 1);
         }
 
         public static bool GetIsBowlExist()
         {
             Random random = new Random();
 
-            switch (random.Next(1,2))
+            switch (random.Next(1, 3))
             {
                 case 1:
                     return false;
                 case 2:
                     return true;
             }
+
             return true;
         }
 
@@ -116,7 +117,7 @@
         {
             Random random = new Random();
 
-            switch (random.Next(1, 2))
+            switch (random.Next(1, 3))
             {
                 case 1:
                     return false;

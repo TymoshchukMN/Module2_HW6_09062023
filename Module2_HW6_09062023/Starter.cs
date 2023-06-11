@@ -2,18 +2,34 @@
 {
     using System;
     using Module2_HW6_09062023.Enums;
+    using Module2_HW6_09062023.Interfaces;
 
     public static class Starter
     {
         public static void Run()
         {
-            const int ApplianceCount = 15;
+            const int ApplianceCount = 10;
 
             Appliance[] appliances = new Appliance[ApplianceCount];
 
             CreateHomeAppliance(appliances);
+
+            IEnergyConsuming[] appliance = (IEnergyConsuming[])appliances.Clone();
+            int energyConsuming = CalculateEnergyConsuming(appliance);
+
         }
 
+        private static int CalculateEnergyConsuming(IEnergyConsuming[] appliance)
+        {
+            int energyConsuming = 0;
+
+            for (int i = 0; i < appliance.Length; i++)
+            {
+                energyConsuming += appliance[i].GetEnergyConsuming();
+            }
+
+            return energyConsuming;
+        }
         /// <summary>
         /// Заполнение масиива с техникой.
         /// </summary>

@@ -3,16 +3,17 @@
   <Class Name="Module2_HW6_09062023.Appliance">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAAAAgAAAEAAAAAIAAAAQAAAAAAAAAAAI=</HashCode>
+      <HashCode>AAgAAAAAACAAAAAgAAAEAAAAAIAAAAQAAAAAAAAAAAI=</HashCode>
       <FileName>Appliance.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Module2_HW6_09062023.Kitchen">
     <Position X="3.5" Y="1.75" Width="1.5" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="6.5" Y="1.812" />
-        <Point X="6.282" Y="1.812" />
+        <Point X="6.5" Y="2.067" />
+        <Point X="6.282" Y="2.067" />
         <Point X="6.282" Y="1.909" />
         <Point X="5.16" Y="1.909" />
         <Point X="5.16" Y="2.024" />
@@ -28,8 +29,8 @@
     <Position X="11.5" Y="2.25" Width="1.25" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="8" Y="1.938" />
-        <Point X="8.375" Y="1.938" />
+        <Point X="8" Y="2.217" />
+        <Point X="8.375" Y="2.217" />
         <Point X="8.375" Y="3.092" />
         <Point X="11.5" Y="3.092" />
       </Path>

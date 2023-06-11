@@ -2,8 +2,9 @@
 {
     using System;
     using Module2_HW6_09062023.Enums;
+    using Module2_HW6_09062023.Interfaces;
 
-    public class Appliance
+    public class Appliance : IEnergyConsuming
     {
         /// <summary>
         /// Энергопотребление.
@@ -30,6 +31,18 @@
         {
             get { return _energyConsumption; }
             set { _energyConsumption = value; }
+        }
+
+        public virtual int GetEnergyConsuming()
+        {
+            int energyConsumption = 0;
+
+            if (_isTurdedOn)
+            {
+                energyConsumption = _energyConsumption;
+            }
+
+            return energyConsumption;
         }
     }
 }
