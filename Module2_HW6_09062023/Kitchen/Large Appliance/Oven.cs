@@ -11,13 +11,15 @@
             ControlType controlType,
             TypeMountAppliance typeAppliance,
             ColorAppliance color,
-            Manufacturers manufacturer)
+            Manufacturers manufacturer,
+            bool isTurnedOn)
         {
             _controlType = controlType;
             TypeAppliance = typeAppliance;
             ColorAppliance = color;
             EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
+            IsTurnedOn = isTurnedOn;
         }
 
         public ControlType ControlType

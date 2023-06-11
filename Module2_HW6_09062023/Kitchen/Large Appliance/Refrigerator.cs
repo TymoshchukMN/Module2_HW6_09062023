@@ -11,13 +11,15 @@
             CoolingSystem coolingSystem,
             TypeMountAppliance typeAppliance,
             ColorAppliance color,
-            Manufacturers manufacturer)
+            Manufacturers manufacturer,
+            bool isTurnedOn)
         {
             CoolingSystem = coolingSystem;
             TypeAppliance = typeAppliance;
             ColorAppliance = color;
             EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
+            IsTurnedOn = isTurnedOn;
         }
 
         public CoolingSystem CoolingSystem

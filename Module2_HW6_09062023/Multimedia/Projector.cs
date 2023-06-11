@@ -4,19 +4,20 @@
 
     public class Projector : Multimedia
     {
+        private const int _energyConsumption = 210;
         private ProjectorInterfaceType _interfaceType;
 
         public Projector(
-            int energyConsumption,
             Manufacturers manufacturer,
-            int voltage,
             TypeMountAppliance typeMountAppliance,
-            ProjectorInterfaceType interfaceType)
+            ProjectorInterfaceType interfaceType,
+            bool isTurnedOn)
         {
-            EnergyConsumption = energyConsumption;
+            EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
             TypeMountAppliance = typeMountAppliance;
             _interfaceType = interfaceType;
+            IsTurnedOn = isTurnedOn;
         }
 
         public ProjectorInterfaceType InterfaceType

@@ -10,12 +10,14 @@
         public TV(
             Manufacturers manufacturer,
             TypeMountAppliance typeMountAppliance,
-            MatrixType matrixType)
+            MatrixType matrixType,
+            bool isTurnedOn)
         {
             EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
             TypeMountAppliance = typeMountAppliance;
             _matrixType = matrixType;
+            IsTurnedOn = isTurnedOn;
         }
 
         public MatrixType MatrixType

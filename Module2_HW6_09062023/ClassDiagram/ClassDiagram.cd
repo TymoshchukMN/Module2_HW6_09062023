@@ -3,7 +3,7 @@
   <Class Name="Module2_HW6_09062023.Appliance">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <HashCode>AAgAAAAAAAAAAAAgAAAEAAAAAIAAAAQAAAAAAAAAAAI=</HashCode>
       <FileName>Appliance.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -11,8 +11,8 @@
     <Position X="3.5" Y="1.75" Width="1.5" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="6.5" Y="1.595" />
-        <Point X="6.282" Y="1.595" />
+        <Point X="6.5" Y="1.812" />
+        <Point X="6.282" Y="1.812" />
         <Point X="6.282" Y="1.909" />
         <Point X="5.16" Y="1.909" />
         <Point X="5.16" Y="2.024" />
@@ -28,8 +28,8 @@
     <Position X="11.5" Y="2.25" Width="1.25" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="8" Y="1.7" />
-        <Point X="8.375" Y="1.7" />
+        <Point X="8" Y="1.938" />
+        <Point X="8.375" Y="1.938" />
         <Point X="8.375" Y="3.092" />
         <Point X="11.5" Y="3.092" />
       </Path>
@@ -56,14 +56,14 @@
   <Class Name="Module2_HW6_09062023.TV">
     <Position X="9.5" Y="5" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>Multimedia\TV.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.Projector">
     <Position X="13.5" Y="5" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAEAAAAAAAA=</HashCode>
       <FileName>Multimedia\Projector.cs</FileName>
     </TypeIdentifier>
   </Class>

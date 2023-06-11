@@ -12,6 +12,14 @@
 
         private Manufacturers _manufacturer;
 
+        private bool _isTurdedOn;
+
+        public bool IsTurnedOn
+        {
+            get { return _isTurdedOn; }
+            set { _isTurdedOn = value; }
+        }
+
         public Manufacturers Manufacturer
         {
             get { return _manufacturer; }

@@ -15,13 +15,15 @@
             bool bowlExist,
             HousingMaterial housingMaterial,
             ColorAppliance color,
-            Manufacturers manufacturer)
+            Manufacturers manufacturer,
+            bool isTurnedOn)
         {
             _bowlExist = bowlExist;
             HousingMaterial = housingMaterial;
             ColorAppliance = color;
             EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
+            IsTurnedOn = isTurnedOn;
         }
 
         public bool BowlExist

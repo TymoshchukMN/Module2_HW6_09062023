@@ -111,5 +111,19 @@
             }
             return true;
         }
+
+        public static bool GetIsTurnedOn()
+        {
+            Random random = new Random();
+
+            switch (random.Next(1, 2))
+            {
+                case 1:
+                    return false;
+                case 2:
+                    return true;
+            }
+            return true;
+        }
     }
 }

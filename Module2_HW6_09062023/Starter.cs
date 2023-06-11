@@ -40,7 +40,8 @@
                             PropRand.GetCoolingSystem(),
                             PropRand.GetTypeMountAppliance(),
                             PropRand.GetColor(),
-                            PropRand.GetManufacturers());
+                            PropRand.GetManufacturers(),
+                            PropRand.GetIsTurnedOn());
 
                         break;
 
@@ -50,7 +51,8 @@
                            PropRand.GetControlType(),
                            PropRand.GetTypeMountAppliance(),
                            PropRand.GetColor(),
-                           PropRand.GetManufacturers());
+                           PropRand.GetManufacturers(),
+                           PropRand.GetIsTurnedOn());
 
                         break;
 
@@ -60,7 +62,8 @@
                           PropRand.GetMixerType(),
                           PropRand.GetHousingMaterial(),
                           PropRand.GetColor(),
-                          PropRand.GetManufacturers());
+                          PropRand.GetManufacturers(),
+                          PropRand.GetIsTurnedOn());
 
                         break;
 
@@ -70,7 +73,8 @@
                           PropRand.GetIsBowlExist(),
                           PropRand.GetHousingMaterial(),
                           PropRand.GetColor(),
-                          PropRand.GetManufacturers());
+                          PropRand.GetManufacturers(),
+                          PropRand.GetIsTurnedOn());
 
                         break;
                     case ApplianceList.TV:
@@ -78,7 +82,8 @@
                         appliances[i] = new TV(
                           PropRand.GetManufacturers(),
                           PropRand.GetTypeMountAppliance(),
-                          PropRand.GetMatrixType());
+                          PropRand.GetMatrixType(),
+                          PropRand.GetIsTurnedOn());
 
                         break;
                     case ApplianceList.Projector:
@@ -86,7 +91,8 @@
                         appliances[i] = new Projector(
                          PropRand.GetManufacturers(),
                          PropRand.GetTypeMountAppliance(),
-                         PropRand.GetProjectorInterfaceType());
+                         PropRand.GetProjectorInterfaceType(),
+                         PropRand.GetIsTurnedOn());
                         break;
                 }
             }

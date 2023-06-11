@@ -11,13 +11,15 @@
             MixerType mixerType,
             HousingMaterial housingMaterial,
             ColorAppliance color,
-            Manufacturers manufacturer)
+            Manufacturers manufacturer,
+            bool isTurnedOn)
         {
             _mixerType = mixerType;
             HousingMaterial = housingMaterial;
             ColorAppliance = color;
             EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
+            IsTurnedOn = isTurnedOn;
         }
 
         public MixerType MixerType
