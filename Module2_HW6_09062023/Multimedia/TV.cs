@@ -11,6 +11,5 @@
             get { return _matrixType; }
             set { _matrixType = value; }
         }
-
     }
 }
