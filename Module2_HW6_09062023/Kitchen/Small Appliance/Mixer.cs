@@ -4,22 +4,20 @@
 
     public class Mixer : SmallAppliance
     {
+        private const int _energyConsumption = 200;
         private MixerType _mixerType;
 
         public Mixer(
             MixerType mixerType,
             HousingMaterial housingMaterial,
             ColorAppliance color,
-            int energyConsumption,
-            Manufacturers manufacturer,
-            int voltage)
+            Manufacturers manufacturer)
         {
             _mixerType = mixerType;
             HousingMaterial = housingMaterial;
             ColorAppliance = color;
-            EnergyConsumption = energyConsumption;
+            EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
-            Voltage = voltage;
         }
 
         public MixerType MixerType

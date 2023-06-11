@@ -4,6 +4,8 @@
 
     public class Blender : SmallAppliance
     {
+        private const int _energyConsumption = 250;
+
         /// <summary>
         /// Наличие чаши в комплекте.
         /// </summary>
@@ -13,16 +15,13 @@
             bool bowlExist,
             HousingMaterial housingMaterial,
             ColorAppliance color,
-            int energyConsumption,
-            Manufacturers manufacturer,
-            int voltage)
+            Manufacturers manufacturer)
         {
             _bowlExist = bowlExist;
             HousingMaterial = housingMaterial;
             ColorAppliance = color;
-            EnergyConsumption = energyConsumption;
+            EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
-            Voltage = voltage;
         }
 
         public bool BowlExist

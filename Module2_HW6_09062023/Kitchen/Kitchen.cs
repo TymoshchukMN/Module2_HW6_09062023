@@ -4,7 +4,7 @@
 
     public abstract class Kitchen : Appliance
     {
-        protected ColorAppliance _colorAppliance;
+        private ColorAppliance _colorAppliance;
 
         public ColorAppliance ColorAppliance
         {

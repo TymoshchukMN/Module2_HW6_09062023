@@ -6,11 +6,6 @@
     public class Appliance
     {
         /// <summary>
-        /// Напряжение.
-        /// </summary>
-        private int _voltage;
-
-        /// <summary>
         /// Энергопотребление.
         /// </summary>
         private int _energyConsumption;
@@ -27,12 +22,6 @@
         {
             get { return _energyConsumption; }
             set { _energyConsumption = value; }
-        }
-
-        public int Voltage
-        {
-            get { return _voltage; }
-            set { _voltage = value; }
         }
     }
 }

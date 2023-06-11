@@ -46,12 +46,12 @@
   <ItemGroup>
     <Compile Include="Appliance.cs" />
     <Compile Include="Enums\ApplianceList.cs" />
-    <Compile Include="Enums\Color.cs" />
+    <Compile Include="Enums\ColorAppliance.cs" />
     <Compile Include="Enums\ControlType.cs" />
     <Compile Include="Enums\CoolingSystem.cs" />
     <Compile Include="Enums\FasteningType.cs" />
     <Compile Include="Enums\HousingMaterial.cs" />
-    <Compile Include="Enums\InterfaceType.cs" />
+    <Compile Include="Enums\ProjectorInterfaceType.cs" />
     <Compile Include="Enums\MixerType.cs" />
     <Compile Include="Enums\MatrixType.cs" />
     <Compile Include="Kitchen\Small Appliance\Blender.cs" />

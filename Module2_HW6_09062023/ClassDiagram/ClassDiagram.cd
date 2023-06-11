@@ -3,20 +3,20 @@
   <Class Name="Module2_HW6_09062023.Appliance">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAAAAggAAEACAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <HashCode>AAgAAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>Appliance.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.Kitchen">
-    <Position X="3" Y="1.75" Width="1.5" />
+    <Position X="3.5" Y="1.75" Width="1.5" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="6.5" Y="1.812" />
-        <Point X="6.282" Y="1.812" />
+        <Point X="6.5" Y="1.595" />
+        <Point X="6.282" Y="1.595" />
         <Point X="6.282" Y="1.909" />
         <Point X="5.16" Y="1.909" />
         <Point X="5.16" Y="2.024" />
-        <Point X="4.5" Y="2.024" />
+        <Point X="5" Y="2.024" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -28,8 +28,8 @@
     <Position X="11.5" Y="2.25" Width="1.25" />
     <InheritanceLine Type="Module2_HW6_09062023.Appliance" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="8" Y="1.938" />
-        <Point X="8.375" Y="1.938" />
+        <Point X="8" Y="1.7" />
+        <Point X="8.375" Y="1.7" />
         <Point X="8.375" Y="3.092" />
         <Point X="11.5" Y="3.092" />
       </Path>
@@ -47,7 +47,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.SmallAppliance">
-    <Position X="5.25" Y="4.25" Width="1.5" />
+    <Position X="5.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\SmallAppliance.cs</FileName>
@@ -78,36 +78,36 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAASAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\Large Appliance\Refrigerator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.Oven">
-    <Position X="2.25" Y="7" Width="1.5" />
+    <Position X="2.5" Y="7" Width="1.5" />
     <InheritanceLine Type="Module2_HW6_09062023.LargeAppliance" ManuallyRouted="true">
       <Path>
         <Point X="2.25" Y="5.934" />
         <Point X="2.25" Y="6.188" />
-        <Point X="3" Y="6.188" />
-        <Point X="3" Y="7" />
+        <Point X="3.25" Y="6.188" />
+        <Point X="3.25" Y="7" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAEAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\Large Appliance\Oven.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.Blender">
     <Position X="4.25" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAACAAgAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\Small Appliance\Blender.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Module2_HW6_09062023.Mixer">
     <Position X="6.5" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAkAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Kitchen\Small Appliance\Mixer.cs</FileName>
     </TypeIdentifier>
   </Class>

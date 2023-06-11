@@ -4,22 +4,20 @@
 
     public class Refrigerator : LargeAppliance
     {
+        private const int _energyConsumption = 570;
         private CoolingSystem _coolingSystem;
 
         public Refrigerator(
             CoolingSystem coolingSystem,
             TypeMountAppliance typeAppliance,
             ColorAppliance color,
-            int energyConsumption,
-            Manufacturers manufacturer,
-            int voltage)
+            Manufacturers manufacturer)
         {
             CoolingSystem = coolingSystem;
             TypeAppliance = typeAppliance;
             ColorAppliance = color;
-            EnergyConsumption = energyConsumption;
+            EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
-            Voltage = voltage;
         }
 
         public CoolingSystem CoolingSystem

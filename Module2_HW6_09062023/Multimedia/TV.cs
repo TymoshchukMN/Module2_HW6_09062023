@@ -4,18 +4,16 @@
 
     public class TV : Multimedia
     {
+        private const int _energyConsumption = 90;
         private MatrixType _matrixType;
 
         public TV(
-            int energyConsumption,
             Manufacturers manufacturer,
-            int voltage,
             TypeMountAppliance typeMountAppliance,
             MatrixType matrixType)
         {
-            EnergyConsumption = energyConsumption;
+            EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
-            Voltage = voltage;
             TypeMountAppliance = typeMountAppliance;
             _matrixType = matrixType;
         }

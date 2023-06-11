@@ -35,17 +35,58 @@
                 switch ((ApplianceList)rndAppl)
                 {
                     case ApplianceList.Refrigerator:
-                        appliances[i] = new Refrigerator()
+
+                        appliances[i] = new Refrigerator(
+                            PropRand.GetCoolingSystem(),
+                            PropRand.GetTypeMountAppliance(),
+                            PropRand.GetColor(),
+                            PropRand.GetManufacturers());
+
                         break;
+
                     case ApplianceList.Oven:
+
+                        appliances[i] = new Oven(
+                           PropRand.GetControlType(),
+                           PropRand.GetTypeMountAppliance(),
+                           PropRand.GetColor(),
+                           PropRand.GetManufacturers());
+
                         break;
+
                     case ApplianceList.Mixer:
+
+                        appliances[i] = new Mixer(
+                          PropRand.GetMixerType(),
+                          PropRand.GetHousingMaterial(),
+                          PropRand.GetColor(),
+                          PropRand.GetManufacturers());
+
                         break;
+
                     case ApplianceList.Blender:
+
+                        appliances[i] = new Blender(
+                          PropRand.GetIsBowlExist(),
+                          PropRand.GetHousingMaterial(),
+                          PropRand.GetColor(),
+                          PropRand.GetManufacturers());
+
                         break;
                     case ApplianceList.TV:
+
+                        appliances[i] = new TV(
+                          PropRand.GetManufacturers(),
+                          PropRand.GetTypeMountAppliance(),
+                          PropRand.GetMatrixType());
+
                         break;
                     case ApplianceList.Projector:
+
+                        appliances[i] = new Projector(
+                         PropRand.GetManufacturers(),
+                         PropRand.GetTypeMountAppliance(),
+                         PropRand.GetProjectorInterfaceType());
                         break;
                 }
             }

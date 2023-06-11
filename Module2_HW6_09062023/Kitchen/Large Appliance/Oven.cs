@@ -4,22 +4,20 @@
 
     public class Oven : LargeAppliance
     {
+        private const int _energyConsumption = 1200;
         private ControlType _controlType;
 
         public Oven(
             ControlType controlType,
             TypeMountAppliance typeAppliance,
             ColorAppliance color,
-            int energyConsumption,
-            Manufacturers manufacturer,
-            int voltage)
+            Manufacturers manufacturer)
         {
             _controlType = controlType;
             TypeAppliance = typeAppliance;
             ColorAppliance = color;
-            EnergyConsumption = energyConsumption;
+            EnergyConsumption = _energyConsumption;
             Manufacturer = manufacturer;
-            Voltage = voltage;
         }
 
         public ControlType ControlType

@@ -15,7 +15,6 @@
         {
             EnergyConsumption = energyConsumption;
             Manufacturer = manufacturer;
-            Voltage = voltage;
             TypeMountAppliance = typeMountAppliance;
             _interfaceType = interfaceType;
         }
