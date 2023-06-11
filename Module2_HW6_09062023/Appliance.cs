@@ -7,8 +7,14 @@ namespace Module2_HW6_09062023
 {
     public class Appliance
     {
+        /// <summary>
+        /// Напряжение.
+        /// </summary>
         private int _voltage;
 
+        /// <summary>
+        /// Энергопотребление.
+        /// </summary>
         private int _energyConsumption;
 
         private string _manufacturer;

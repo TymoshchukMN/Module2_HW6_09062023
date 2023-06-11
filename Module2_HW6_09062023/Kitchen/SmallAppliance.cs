@@ -4,12 +4,12 @@
 
     public class SmallAppliance : Kitchen
     {
-        private FasteningType _fasteningType;
+        private HousingMaterial _housingMaterial;
 
-        public FasteningType TypeMountAppliance
+        public HousingMaterial HousingMaterial
         {
-            get { return _fasteningType; }
-            set { _fasteningType = value; }
+            get { return _housingMaterial; }
+            set { _housingMaterial = value; }
         }
     }
 }

@@ -8,12 +8,12 @@
         None = 0,
 
         /// <summary>
-        /// Embedded.
+        /// Втраиваемый.
         /// </summary>
         Embedded = 1,
 
         /// <summary>
-        /// Standing separately.
+        /// Отдельностоящий.
         /// </summary>
         StandingSeparately = 2,
     }
