@@ -4,14 +4,14 @@
 
     public class Projector : Multimedia
     {
-        private InterfaceType _interfaceType;
+        private ProjectorInterfaceType _interfaceType;
 
         public Projector(
             int energyConsumption,
             Manufacturers manufacturer,
             int voltage,
             TypeMountAppliance typeMountAppliance,
-            InterfaceType interfaceType)
+            ProjectorInterfaceType interfaceType)
         {
             EnergyConsumption = energyConsumption;
             Manufacturer = manufacturer;
@@ -20,7 +20,7 @@
             _interfaceType = interfaceType;
         }
 
-        public InterfaceType InterfaceType
+        public ProjectorInterfaceType InterfaceType
         {
             get { return _interfaceType; }
             set { _interfaceType = value; }

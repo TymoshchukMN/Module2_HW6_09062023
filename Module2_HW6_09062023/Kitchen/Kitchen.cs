@@ -4,9 +4,9 @@
 
     public abstract class Kitchen : Appliance
     {
-        protected Color _colorAppliance;
+        protected ColorAppliance _colorAppliance;
 
-        public Color ColorAppliance
+        public ColorAppliance ColorAppliance
         {
             get { return _colorAppliance; }
             set { _colorAppliance = value; }

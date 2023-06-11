@@ -1,6 +1,6 @@
 ﻿namespace Module2_HW6_09062023.Enums
 {
-    public enum InterfaceType
+    public enum ProjectorInterfaceType
     {
         /// <summary>
         /// DVI.

@@ -9,7 +9,7 @@
         public Oven(
             ControlType controlType,
             TypeMountAppliance typeAppliance,
-            Color color,
+            ColorAppliance color,
             int energyConsumption,
             Manufacturers manufacturer,
             int voltage)

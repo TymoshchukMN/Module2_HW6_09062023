@@ -9,7 +9,7 @@
         public Mixer(
             MixerType mixerType,
             HousingMaterial housingMaterial,
-            Color color,
+            ColorAppliance color,
             int energyConsumption,
             Manufacturers manufacturer,
             int voltage)

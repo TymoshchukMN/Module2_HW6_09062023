@@ -9,7 +9,7 @@
         public Refrigerator(
             CoolingSystem coolingSystem,
             TypeMountAppliance typeAppliance,
-            Color color,
+            ColorAppliance color,
             int energyConsumption,
             Manufacturers manufacturer,
             int voltage)

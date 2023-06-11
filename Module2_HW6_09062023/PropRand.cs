@@ -8,11 +8,11 @@
     /// </summary>
     public static class PropRand
     {
-        public static Color GetColor()
+        public static ColorAppliance GetColor()
         {
             Random random = new Random();
 
-
+            return (Color)
         }
     }
 }
