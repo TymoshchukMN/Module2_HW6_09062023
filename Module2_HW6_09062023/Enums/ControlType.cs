@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module2_HW6_09062023.Enums
+﻿namespace Module2_HW6_09062023.Enums
 {
-    internal class ControlType
+    public enum ControlType
     {
+        /// <summary>
+        /// def.
+        /// </summary>
+        None = 0,
+
+        /// <summary>
+        /// Mechanic.
+        /// </summary>
+        Mechanic = 1,
+
+        /// <summary>
+        /// Sensor.
+        /// </summary>
+        Sensor = 2,
     }
 }
