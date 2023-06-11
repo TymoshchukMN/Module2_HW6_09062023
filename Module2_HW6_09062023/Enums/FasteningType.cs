@@ -6,11 +6,6 @@
     public enum FasteningType
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Wall.
         /// </summary>
         Wall = 1,

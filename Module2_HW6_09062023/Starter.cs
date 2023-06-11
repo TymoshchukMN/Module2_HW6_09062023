@@ -35,6 +35,7 @@
                 switch ((ApplianceList)rndAppl)
                 {
                     case ApplianceList.Refrigerator:
+                        appliances[i] = new Refrigerator()
                         break;
                     case ApplianceList.Oven:
                         break;

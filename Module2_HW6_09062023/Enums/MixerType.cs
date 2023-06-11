@@ -6,11 +6,6 @@
     public enum MixerType
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Ручной.
         /// </summary>
         Manual = 1,

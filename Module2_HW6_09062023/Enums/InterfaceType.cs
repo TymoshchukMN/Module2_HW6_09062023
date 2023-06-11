@@ -3,11 +3,6 @@
     public enum InterfaceType
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// DVI.
         /// </summary>
         DVI = 1,

@@ -3,11 +3,6 @@
     public enum Manufacturers
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Bosch.
         /// </summary>
         Bosch = 1,

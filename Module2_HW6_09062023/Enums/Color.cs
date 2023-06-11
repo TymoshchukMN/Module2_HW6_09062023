@@ -3,11 +3,6 @@
     public enum Color
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Metalic color,
         /// </summary>
         Metalic = 1,

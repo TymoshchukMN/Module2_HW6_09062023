@@ -6,11 +6,6 @@
     public enum HousingMaterial
     {
         /// <summary>
-        /// def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Plastic/
         /// </summary>
         Plastic = 1,

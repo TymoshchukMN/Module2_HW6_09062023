@@ -3,11 +3,6 @@
     public enum CoolingSystem : ushort
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// no frost.
         /// </summary>
         NoFrost = 1,

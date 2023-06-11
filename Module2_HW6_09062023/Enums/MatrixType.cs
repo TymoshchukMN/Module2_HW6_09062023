@@ -3,11 +3,6 @@
     public enum MatrixType
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None,
-
-        /// <summary>
         /// IPS.
         /// </summary>
         IPS,

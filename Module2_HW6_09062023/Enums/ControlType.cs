@@ -3,11 +3,6 @@
     public enum ControlType
     {
         /// <summary>
-        /// def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Mechanic.
         /// </summary>
         Mechanic = 1,

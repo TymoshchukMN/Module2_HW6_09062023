@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module2_HW6_09062023
+﻿namespace Module2_HW6_09062023
 {
-    internal class PropRand
+    using System;
+    using Module2_HW6_09062023.Enums;
+
+    /// <summary>
+    /// Generate random prop.
+    /// </summary>
+    public static class PropRand
     {
+        public static Color GetColor()
+        {
+            Random random = new Random();
+
+
+        }
     }
 }

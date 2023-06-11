@@ -67,6 +67,7 @@
     <Compile Include="Kitchen\Large Appliance\Refrigerator.cs" />
     <Compile Include="Kitchen\SmallAppliance.cs" />
     <Compile Include="Multimedia\Multimedia.cs" />
+    <Compile Include="PropRand.cs" />
     <Compile Include="Starter.cs" />
     <Compile Include="Multimedia\TV.cs" />
   </ItemGroup>

@@ -6,6 +6,20 @@
     {
         private InterfaceType _interfaceType;
 
+        public Projector(
+            int energyConsumption,
+            Manufacturers manufacturer,
+            int voltage,
+            TypeMountAppliance typeMountAppliance,
+            InterfaceType interfaceType)
+        {
+            EnergyConsumption = energyConsumption;
+            Manufacturer = manufacturer;
+            Voltage = voltage;
+            TypeMountAppliance = typeMountAppliance;
+            _interfaceType = interfaceType;
+        }
+
         public InterfaceType InterfaceType
         {
             get { return _interfaceType; }

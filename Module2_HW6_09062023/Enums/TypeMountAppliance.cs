@@ -3,11 +3,6 @@
     public enum TypeMountAppliance
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Втраиваемый.
         /// </summary>
         Embedded = 1,
