@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Module2_HW6_09062023
+﻿namespace Module2_HW6_09062023
 {
+    using System;
+    using Module2_HW6_09062023.Enums;
+
     public class Appliance
     {
         /// <summary>
@@ -17,9 +15,9 @@ namespace Module2_HW6_09062023
         /// </summary>
         private int _energyConsumption;
 
-        private string _manufacturer;
+        private Manufacturers _manufacturer;
 
-        public string Manufacturer
+        public Manufacturers Manufacturer
         {
             get { return _manufacturer; }
             set { _manufacturer = value; }

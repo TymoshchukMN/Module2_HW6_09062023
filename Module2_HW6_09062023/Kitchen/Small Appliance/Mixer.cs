@@ -6,6 +6,22 @@
     {
         private MixerType _mixerType;
 
+        public Mixer(
+            MixerType mixerType,
+            HousingMaterial housingMaterial,
+            Color color,
+            int energyConsumption,
+            Manufacturers manufacturer,
+            int voltage)
+        {
+            _mixerType = mixerType;
+            HousingMaterial = housingMaterial;
+            ColorAppliance = color;
+            EnergyConsumption = energyConsumption;
+            Manufacturer = manufacturer;
+            Voltage = voltage;
+        }
+
         public MixerType MixerType
         {
             get { return _mixerType; }

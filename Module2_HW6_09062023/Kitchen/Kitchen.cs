@@ -4,12 +4,12 @@
 
     public abstract class Kitchen : Appliance
     {
-        private Color _color;
+        protected Color _colorAppliance;
 
-        public Color MyProperty
+        public Color ColorAppliance
         {
-            get { return _color; }
-            set { _color = value; }
+            get { return _colorAppliance; }
+            set { _colorAppliance = value; }
         }
     }
 }

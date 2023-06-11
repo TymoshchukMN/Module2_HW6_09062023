@@ -6,6 +6,22 @@
     {
         private CoolingSystem _coolingSystem;
 
+        public Refrigerator(
+            CoolingSystem coolingSystem,
+            TypeMountAppliance typeAppliance,
+            Color color,
+            int energyConsumption,
+            Manufacturers manufacturer,
+            int voltage)
+        {
+            CoolingSystem = coolingSystem;
+            TypeAppliance = typeAppliance;
+            ColorAppliance = color;
+            EnergyConsumption = energyConsumption;
+            Manufacturer = manufacturer;
+            Voltage = voltage;
+        }
+
         public CoolingSystem CoolingSystem
         {
             get { return _coolingSystem; }
