@@ -4,12 +4,12 @@
 
     public class SmallAppliance : Kitchen
     {
-        private TypeMountAppliance _typeMountAppliance;
+        private FasteningType _fasteningType;
 
-        public TypeMountAppliance TypeMountAppliance
+        public FasteningType TypeMountAppliance
         {
-            get { return _typeMountAppliance; }
-            set { _typeMountAppliance = value; }
+            get { return _fasteningType; }
+            set { _fasteningType = value; }
         }
     }
 }
