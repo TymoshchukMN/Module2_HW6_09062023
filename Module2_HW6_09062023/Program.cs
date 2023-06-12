@@ -7,6 +7,7 @@
         public static void Main(string[] args)
         {
             Starter.Run();
+            Console.ReadKey();
         }
     }
 }

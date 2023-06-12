@@ -61,6 +61,13 @@
             Console.WriteLine(Board);
         }
 
+        public static void PrintTotalElectConsumption(int total)
+        {
+            Console.WriteLine(Board);
+            Console.Write("\nTotal electricity consumption:\t");
+            ChangeColor(total.ToString(), ConsoleColor.Cyan);
+        }
+
         private static void ChangeColor(string str, ConsoleColor color)
         {
             ConsoleColor def = Console.ForegroundColor;

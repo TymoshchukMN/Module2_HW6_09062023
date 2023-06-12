@@ -54,6 +54,8 @@
     <Compile Include="Enums\ProjectorInterfaceType.cs" />
     <Compile Include="Enums\MixerType.cs" />
     <Compile Include="Enums\MatrixType.cs" />
+    <Compile Include="Extentions\Extend.cs" />
+    <Compile Include="Home.cs" />
     <Compile Include="Interfaces\IEnergyConsuming.cs" />
     <Compile Include="Interfaces\IIsturnedOn.cs" />
     <Compile Include="Interfaces\IPrintable.cs" />

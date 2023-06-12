@@ -112,5 +112,12 @@
       <FileName>Kitchen\Small Appliance\Mixer.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Module2_HW6_09062023.Home">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAgEAAAACAAAAAAAAAAQA=</HashCode>
+      <FileName>Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
