@@ -15,6 +15,7 @@
             CreateHomeAppliance(appliances);
 
             IEnergyConsuming[] appliance = (IEnergyConsuming[])appliances.Clone();
+
             int energyConsuming = CalculateEnergyConsuming(appliance);
 
         }
@@ -30,6 +31,7 @@
 
             return energyConsuming;
         }
+
         /// <summary>
         /// Заполнение масиива с техникой.
         /// </summary>

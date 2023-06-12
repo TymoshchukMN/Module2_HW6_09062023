@@ -4,7 +4,7 @@
     using Module2_HW6_09062023.Enums;
     using Module2_HW6_09062023.Interfaces;
 
-    public class Appliance : IEnergyConsuming
+    public class Appliance : IEnergyConsuming, IPrintable, IComparable
     {
         /// <summary>
         /// Энергопотребление.
@@ -33,6 +33,11 @@
             set { _energyConsumption = value; }
         }
 
+        public int CompareTo(object obj)
+        {
+            return this.ToString().CompareTo(obj.ToString());
+        }
+
         public virtual int GetEnergyConsuming()
         {
             int energyConsumption = 0;
@@ -43,6 +48,29 @@
             }
 
             return energyConsumption;
+        }
+
+        public string PrintAllAppliance()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string PrintTurnedOnAppliance()
+        {
+            if (_isTurdedOn)
+            {
+                return $"{this.GetType().Name}:\t{_manufacturer}:" +
+                $"\t{_energyConsumption}";
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+
+        public override string ToString()
+        {
+            return this.GetType().Name;
         }
     }
 }
