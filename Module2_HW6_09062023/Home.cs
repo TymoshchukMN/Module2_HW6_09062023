@@ -7,7 +7,7 @@
 
     public class Home
     {
-        private const int ApplianceCount = 10;
+        private const int ApplianceCount = 20;
         private Appliance[] _appliances = new Appliance[ApplianceCount];
 
         /// <summary>

@@ -2,6 +2,9 @@
 {
     using Module2_HW6_09062023.Enums;
 
+    /// <summary>
+    /// Refrigirator.
+    /// </summary>
     public class Refrig : LargeAppliance
     {
         private const int _energyConsumption = 570;
