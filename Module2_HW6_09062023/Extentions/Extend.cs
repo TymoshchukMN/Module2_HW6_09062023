@@ -15,8 +15,8 @@
             {
                 if (appliances[i].Manufacturer == manufacturer)
                 {
-                    Array.Resize(ref findedAppl, appliances.Length + 1);
-                    findedAppl[appliances.Length - 1] = appliances[i];
+                    Array.Resize(ref findedAppl, findedAppl.Length + 1);
+                    findedAppl[findedAppl.Length - 1] = appliances[i];
                 }
             }
 

@@ -7,10 +7,13 @@
     {
         private const string Board = "=========================";
 
-        public static void PrintAllAppliance(IPrintable[] appliance)
+        public static void PrintAppliance(
+            IPrintable[] appliance,
+            string text,
+            ConsoleColor consoleColor)
         {
             Console.WriteLine(Board);
-            ChangeColor("All appliance", ConsoleColor.Yellow);
+            ChangeColor(text, consoleColor);
             Console.WriteLine();
 
             for (int i = 0; i < appliance.Length; i++)
@@ -44,6 +47,8 @@
             ChangeColor("Turned On", ConsoleColor.Yellow);
             Console.WriteLine();
 
+            ushort tmpCounter = 0;
+
             for (int i = 0; i < appliance.Length; i++)
             {
                 if (((IIsturnedOn)appliance[i]).GetIsTurnedOn())
@@ -55,7 +60,13 @@
                         $"{appliance[i].ToString().Split(':')[3]}",
                         ConsoleColor.Green);
                     Console.WriteLine();
+                    ++tmpCounter;
                 }
+            }
+
+            if (tmpCounter == 0)
+            {
+                ChangeColor("No turned on appliance\n", ConsoleColor.Red);
             }
 
             Console.WriteLine(Board);
@@ -66,6 +77,8 @@
             Console.WriteLine(Board);
             Console.Write("\nTotal electricity consumption:\t");
             ChangeColor(total.ToString(), ConsoleColor.Cyan);
+            Console.WriteLine();
+            Console.WriteLine(Board);
         }
 
         private static void ChangeColor(string str, ConsoleColor color)

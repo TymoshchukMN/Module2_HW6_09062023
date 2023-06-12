@@ -17,12 +17,18 @@
                 (IPrintable[])home.Appliances.Clone();
 
             // печать всей техники (не сортированной)
-            UI.PrintAllAppliance(printables);
+            UI.PrintAppliance(
+                printables,
+                "All appliance",
+                ConsoleColor.Yellow);
 
             Array.Sort(printables);
 
             // печать СОРТИРОВАННОЙ техники
-            UI.PrintAllAppliance(printables);
+            UI.PrintAppliance(
+                printables,
+                "Sorted appliance by name",
+                ConsoleColor.Cyan);
 
             UI.PrintTurnedOnAppliance(printables);
 
@@ -34,8 +40,15 @@
 
             UI.PrintTotalElectConsumption(energyConsuming);
 
-            Extend.FindApplience()
-        }
+            // поиск техники по производителю
+            IPrintable[] findedApplience = Extend.FindApplience(
+                home.Appliances,
+                Manufacturers.Bosch);
 
+            UI.PrintAppliance(
+                findedApplience,
+                "Finded appliance",
+                ConsoleColor.Magenta);
+        }
     }
 }
