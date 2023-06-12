@@ -5,37 +5,42 @@
 
     public static class Extend
     {
-        public static Appliance[] FindApplience(Manufacturers manufacturer)
+        public static Appliance[] FindApplience(
+            this Appliance[] appliances,
+            Manufacturers manufacturer)
         {
-            Appliance[] findedAppliances = new Appliance[0];
+            Appliance[] findedAppl = new Appliance[0];
 
-            for (int i = 0; i < findedAppliances.Length; i++)
+            for (int i = 0; i < appliances.Length; i++)
             {
-                if (findedAppliances[i].Manufacturer == manufacturer)
+                if (appliances[i].Manufacturer == manufacturer)
                 {
-                    Array.Resize(ref findedAppliances, findedAppliances.Length + 1);
-                    findedAppliances[findedAppliances.Length - 1] = findedAppliances[i];
+                    Array.Resize(ref findedAppl, appliances.Length + 1);
+                    findedAppl[appliances.Length - 1] = appliances[i];
                 }
             }
 
-            return findedAppliances;
+            return findedAppl;
         }
 
-        public static Appliance[] FindApplience(Manufacturers manufacturer, bool isTurnedOn)
+        public static Appliance[] FindApplience(
+            this Appliance[] appliances,
+            Manufacturers manufacturer,
+            bool isTurnedOn)
         {
-            Appliance[] findedAppliances = new Appliance[0];
+            Appliance[] findedAppl = new Appliance[0];
 
-            for (int i = 0; i < findedAppliances.Length; i++)
+            for (int i = 0; i < appliances.Length; i++)
             {
-                if (findedAppliances[i].Manufacturer == manufacturer
-                    && findedAppliances[i].IsTurnedOn == isTurnedOn)
+                if (appliances[i].Manufacturer == manufacturer
+                    && appliances[i].IsTurnedOn == isTurnedOn)
                 {
-                    Array.Resize(ref findedAppliances, findedAppliances.Length + 1);
-                    findedAppliances[findedAppliances.Length - 1] = findedAppliances[i];
+                    Array.Resize(ref findedAppl, findedAppl.Length + 1);
+                    findedAppl[findedAppl.Length - 1] = appliances[i];
                 }
             }
 
-            return findedAppliances;
+            return findedAppl;
         }
     }
 }

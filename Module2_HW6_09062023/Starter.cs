@@ -3,6 +3,7 @@
     using System;
     using System.Threading;
     using Module2_HW6_09062023.Enums;
+    using Module2_HW6_09062023.Extentions;
     using Module2_HW6_09062023.Interfaces;
 
     public static class Starter
@@ -33,6 +34,7 @@
 
             UI.PrintTotalElectConsumption(energyConsuming);
 
+            Extend.FindApplience()
         }
 
     }
