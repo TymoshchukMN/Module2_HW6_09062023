@@ -10,7 +10,7 @@
         /// <summary>
         /// LG.
         /// </summary>
-        LG = 2,
+        LGTech = 2,
 
         /// <summary>
         /// Siemens.
@@ -25,6 +25,6 @@
         /// <summary>
         /// VestFrost.
         /// </summary>
-        VestFrost = 5,
+        VstFrst = 5,
     }
 }

@@ -2,12 +2,12 @@
 {
     using Module2_HW6_09062023.Enums;
 
-    public class Refrigerator : LargeAppliance
+    public class Refrig : LargeAppliance
     {
         private const int _energyConsumption = 570;
         private CoolingSystem _coolingSystem;
 
-        public Refrigerator(
+        public Refrig(
             CoolingSystem coolingSystem,
             TypeMountAppliance typeAppliance,
             ColorAppliance color,

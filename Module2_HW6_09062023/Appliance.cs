@@ -4,7 +4,8 @@
     using Module2_HW6_09062023.Enums;
     using Module2_HW6_09062023.Interfaces;
 
-    public class Appliance : IEnergyConsuming, IPrintable, IComparable
+    public class Appliance : IEnergyConsuming, IPrintable, IComparable,
+        IIsturnedOn
     {
         /// <summary>
         /// Энергопотребление.
@@ -50,27 +51,29 @@
             return energyConsumption;
         }
 
-        public string PrintAllAppliance()
-        {
-            throw new NotImplementedException();
-        }
-
-        public string PrintTurnedOnAppliance()
+        public bool GetIsTurnedOn()
         {
             if (_isTurdedOn)
             {
-                return $"{this.GetType().Name}:\t{_manufacturer}:" +
-                $"\t{_energyConsumption}";
+                return true;
             }
             else
             {
-                return string.Empty;
+                return false;
             }
+        }
+
+        public string PrintTurnedAppliance()
+        {
+            return $"{_manufacturer}\t{_energyConsumption}:" +
+                $"\t{this.GetType().Name}:\t{_isTurdedOn}";
         }
 
         public override string ToString()
         {
-            return this.GetType().Name;
+            //return this.GetType().Name;
+            return $"{_manufacturer}:\t{_energyConsumption}:" +
+                $"\t{this.GetType().Name}:\t{_isTurdedOn}";
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿namespace Module2_HW6_09062023
 {
     using System;
+    using System.Threading;
     using Module2_HW6_09062023.Enums;
     using Module2_HW6_09062023.Interfaces;
 
@@ -14,13 +15,23 @@
 
             CreateHomeAppliance(appliances);
 
-            IEnergyConsuming[] appliance = (IEnergyConsuming[])appliances.Clone();
+            IPrintable[] printables =
+                (IPrintable[])appliances.Clone();
 
+            UI.PrintAllAppliance(printables);
+
+            UI.PrintTurnedOnAppliance(printables);
+
+            IEnergyConsuming[] appliance =
+                (IEnergyConsuming[])appliances.Clone();
+
+            // подсчет расхода єлектроєнергии
             int energyConsuming = CalculateEnergyConsuming(appliance);
 
         }
 
-        private static int CalculateEnergyConsuming(IEnergyConsuming[] appliance)
+        private static int CalculateEnergyConsuming(
+            IEnergyConsuming[] appliance)
         {
             int energyConsuming = 0;
 
@@ -50,11 +61,12 @@
             {
                 int rndAppl = random.Next(1, countApplTypes);
 
+                Thread.Sleep(300);
                 switch ((ApplianceList)rndAppl)
                 {
-                    case ApplianceList.Refrigerator:
+                    case ApplianceList.Refrig:
 
-                        appliances[i] = new Refrigerator(
+                        appliances[i] = new Refrig(
                             PropRand.GetCoolingSystem(),
                             PropRand.GetTypeMountAppliance(),
                             PropRand.GetColor(),
@@ -85,7 +97,7 @@
 
                         break;
 
-                    case ApplianceList.Blender:
+                    case ApplianceList.Blendr:
 
                         appliances[i] = new Blender(
                           PropRand.GetIsBowlExist(),
@@ -104,7 +116,7 @@
                           PropRand.GetIsTurnedOn());
 
                         break;
-                    case ApplianceList.Projector:
+                    case ApplianceList.Project:
 
                         appliances[i] = new Projector(
                          PropRand.GetManufacturers(),
@@ -113,7 +125,7 @@
                          PropRand.GetIsTurnedOn());
                         break;
                 }
-            }
+            } // switch ((ApplianceList)rndAppl)
 
             return appliances;
         }

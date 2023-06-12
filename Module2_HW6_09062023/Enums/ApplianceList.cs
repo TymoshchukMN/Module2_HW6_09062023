@@ -5,7 +5,7 @@
         /// <summary>
         /// Refrigerator.
         /// </summary>
-        Refrigerator = 1,
+        Refrig = 1,
 
         /// <summary>
         /// Oven.
@@ -20,7 +20,7 @@
         /// <summary>
         /// Blender.
         /// </summary>
-        Blender = 4,
+        Blendr = 4,
 
         /// <summary>
         /// TV.
@@ -30,6 +30,6 @@
         /// <summary>
         /// Projector.
         /// </summary>
-        Projector = 6,
+        Project = 6,
     }
 }

@@ -115,16 +115,10 @@
 
         public static bool GetIsTurnedOn()
         {
-            Random random = new Random();
+            Random gen = new Random();
+            int prob = gen.Next(100);
 
-            switch (random.Next(1, 3))
-            {
-                case 1:
-                    return false;
-                case 2:
-                    return true;
-            }
-            return true;
+            return prob < 20;
         }
     }
 }

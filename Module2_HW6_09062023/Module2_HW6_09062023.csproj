@@ -55,6 +55,8 @@
     <Compile Include="Enums\MixerType.cs" />
     <Compile Include="Enums\MatrixType.cs" />
     <Compile Include="Interfaces\IEnergyConsuming.cs" />
+    <Compile Include="Interfaces\IIsturnedOn.cs" />
+    <Compile Include="Interfaces\IPrintable.cs" />
     <Compile Include="Kitchen\Small Appliance\Blender.cs" />
     <Compile Include="Enums\Manufacturers.cs" />
     <Compile Include="Enums\TypeMountAppliance.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="PropRand.cs" />
     <Compile Include="Starter.cs" />
     <Compile Include="Multimedia\TV.cs" />
+    <Compile Include="UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

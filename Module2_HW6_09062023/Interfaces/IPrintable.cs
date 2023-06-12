@@ -1,7 +1,7 @@
 ﻿namespace Module2_HW6_09062023.Interfaces
 {
-    internal interface IPrintable
+    public interface IPrintable
     {
-        string PrintAllAppliance();
+        string PrintTurnedAppliance();
     }
 }
