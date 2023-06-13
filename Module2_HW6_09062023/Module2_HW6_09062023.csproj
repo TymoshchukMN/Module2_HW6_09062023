@@ -45,21 +45,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Appliance.cs" />
-    <Compile Include="Blender.cs" />
+    <Compile Include="Enums\ApplianceList.cs" />
+    <Compile Include="Enums\ColorAppliance.cs" />
+    <Compile Include="Enums\ControlType.cs" />
+    <Compile Include="Enums\CoolingSystem.cs" />
+    <Compile Include="Enums\FasteningType.cs" />
+    <Compile Include="Enums\HousingMaterial.cs" />
+    <Compile Include="Enums\ProjectorInterfaceType.cs" />
+    <Compile Include="Enums\MixerType.cs" />
+    <Compile Include="Enums\MatrixType.cs" />
+    <Compile Include="Extentions\Extend.cs" />
+    <Compile Include="Home.cs" />
+    <Compile Include="Interfaces\IEnergyConsuming.cs" />
+    <Compile Include="Interfaces\IIsturnedOn.cs" />
+    <Compile Include="Interfaces\IPrintable.cs" />
+    <Compile Include="Kitchen\Large Appliance\Refrig.cs" />
+    <Compile Include="Kitchen\Small Appliance\Blender.cs" />
     <Compile Include="Enums\Manufacturers.cs" />
-    <Compile Include="Enums\TypeAppliance.cs" />
-    <Compile Include="LargeAppliance.cs" />
-    <Compile Include="LargeHouseholdAppliances.cs" />
-    <Compile Include="Mixer.cs" />
-    <Compile Include="Oven.cs" />
+    <Compile Include="Enums\TypeMountAppliance.cs" />
+    <Compile Include="Kitchen\LargeAppliance.cs" />
+    <Compile Include="Kitchen\Kitchen.cs" />
+    <Compile Include="Kitchen\Small Appliance\Mixer.cs" />
+    <Compile Include="Kitchen\Large Appliance\Oven.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Projector.cs" />
+    <Compile Include="Multimedia\Projector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Refrigerator.cs" />
-    <Compile Include="SmallAppliance.cs" />
-    <Compile Include="SmallHouseholdAppliances.cs" />
+    <Compile Include="Kitchen\SmallAppliance.cs" />
+    <Compile Include="Multimedia\Multimedia.cs" />
+    <Compile Include="PropRand.cs" />
     <Compile Include="Starter.cs" />
-    <Compile Include="TV.cs" />
+    <Compile Include="Multimedia\TV.cs" />
+    <Compile Include="UI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -70,5 +86,6 @@
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

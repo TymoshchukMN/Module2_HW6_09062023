@@ -3,11 +3,6 @@
     public enum Manufacturers
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
         /// Bosch.
         /// </summary>
         Bosch = 1,
@@ -15,7 +10,7 @@
         /// <summary>
         /// LG.
         /// </summary>
-        LG = 2,
+        LGTech = 2,
 
         /// <summary>
         /// Siemens.
@@ -30,6 +25,6 @@
         /// <summary>
         /// VestFrost.
         /// </summary>
-        VestFrost = 5,
+        VstFrst = 5,
     }
 }

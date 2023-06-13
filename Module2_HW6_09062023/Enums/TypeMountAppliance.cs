@@ -1,19 +1,14 @@
 ﻿namespace Module2_HW6_09062023.Enums
 {
-    public enum TypeAppliance
+    public enum TypeMountAppliance
     {
         /// <summary>
-        /// Def.
-        /// </summary>
-        None = 0,
-
-        /// <summary>
-        /// Embedded.
+        /// Втраиваемый.
         /// </summary>
         Embedded = 1,
 
         /// <summary>
-        /// Standing separately.
+        /// Отдельностоящий.
         /// </summary>
         StandingSeparately = 2,
     }

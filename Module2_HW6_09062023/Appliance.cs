@@ -1,19 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Module2_HW6_09062023
+﻿namespace Module2_HW6_09062023
 {
-    public class Appliance
-    {
-        private int _voltage;
+    using System;
+    using Module2_HW6_09062023.Enums;
+    using Module2_HW6_09062023.Interfaces;
 
+    public class Appliance : IEnergyConsuming, IPrintable, IComparable,
+        IIsturnedOn
+    {
+        /// <summary>
+        /// Энергопотребление.
+        /// </summary>
         private int _energyConsumption;
 
-        private string _manufacturer;
+        private Manufacturers _manufacturer;
 
-        public string Manufacturer
+        private bool _isTurdedOn;
+
+        public bool IsTurnedOn
+        {
+            get { return _isTurdedOn; }
+            set { _isTurdedOn = value; }
+        }
+
+        public Manufacturers Manufacturer
         {
             get { return _manufacturer; }
             set { _manufacturer = value; }
@@ -25,11 +34,46 @@ namespace Module2_HW6_09062023
             set { _energyConsumption = value; }
         }
 
-        public int Voltage
+        public int CompareTo(object obj)
         {
-            get { return _voltage; }
-            set { _voltage = value; }
+            return this.ToString().CompareTo(obj.ToString());
         }
 
+        public virtual int GetEnergyConsuming()
+        {
+            int energyConsumption = 0;
+
+            if (_isTurdedOn)
+            {
+                energyConsumption = _energyConsumption;
+            }
+
+            return energyConsumption;
+        }
+
+        public bool GetIsTurnedOn()
+        {
+            if (_isTurdedOn)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public string PrintTurnedAppliance()
+        {
+            return $"{_manufacturer}\t{_energyConsumption}:" +
+                $"\t{this.GetType().Name}:\t{_isTurdedOn}";
+        }
+
+        public override string ToString()
+        {
+            //return this.GetType().Name;
+            return $"{_manufacturer}:\t{_energyConsumption}:" +
+                $"\t{this.GetType().Name}:\t{_isTurdedOn}";
+        }
     }
 }
